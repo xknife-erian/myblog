@@ -18,6 +18,8 @@ tags:
 
 ---
 
+![20210104_095942870_iOS](http://xknife.oss-cn-beijing.aliyuncs.com/20210104_095942870_iOS.jpg)
+
 除了二维码和评论系统外，不引用任何的第三方JavaScript库，均以最少的原生代码实现。
 CSS仅10K，每个页面大小控制在50K左右，赞赏二维码使用Canvas绘制。一个页面也少了50K的二维码的图片大小。
 
