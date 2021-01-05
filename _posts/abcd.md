@@ -1,5 +1,22 @@
 # my first blog
-## 2021-1-5
+---
+
+title: my first blog TensorFlow 入门
+date: 2020-12-09 11:51:24
+description: TensorFlow 入门系列文章，mnist手写数字识别(网络搭建)。
+tags:
+
+- 机器学习
+- tensorflow
+- mnist
+- Python
+nav:
+- TensorFlow
+categories:
+- TensorFlow教程
+
+---
+
 ## [基础语法](https://geektutu.com/post/qa-golang-1.html)
 
 - 01 `=` 和 `:=` 的区别？
