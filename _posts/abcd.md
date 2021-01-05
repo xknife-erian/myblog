@@ -17,6 +17,8 @@ categories:
 
 ---
 
+![U4175P28T3D3096040F346DT20100924001615](http://xknife.oss-cn-beijing.aliyuncs.com/U4175P28T3D3096040F346DT20100924001615.jpg)
+
 ## [基础语法](https://geektutu.com/post/qa-golang-1.html)
 
 - 01 `=` 和 `:=` 的区别？
