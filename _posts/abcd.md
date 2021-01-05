@@ -1,6 +1,4 @@
-# my first blog
----
-
+```
 title: my first blog TensorFlow 入门
 date: 2020-12-09 11:51:24
 description: TensorFlow 入门系列文章，mnist手写数字识别(网络搭建)。
@@ -10,14 +8,13 @@ tags:
 - tensorflow
 - mnist
 - Python
-nav:
+  nav:
 - TensorFlow
-categories:
+  categories:
 - TensorFlow教程
+```
 
----
-
-![U4175P28T3D3096040F346DT20100924001615](http://xknife.oss-cn-beijing.aliyuncs.com/U4175P28T3D3096040F346DT20100924001615.jpg)
+![wx_camera_1515646063613](http://oss.xknife.net/wx_camera_1515646063613.jpg)
 
 ## [基础语法](https://geektutu.com/post/qa-golang-1.html)
 
