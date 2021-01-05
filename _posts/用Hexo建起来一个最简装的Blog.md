@@ -27,3 +27,5 @@ CSS仅10K，每个页面大小控制在50K左右，赞赏二维码使用Canvas�
 加载迅速，页面大小控制得很好。
 内链建设完整，推荐、导航、专题等考虑周到。
 文档齐全，[Github地址](https://github.com/geektutu/hexo-theme-geektutu)，并且提交到了hexo themes列表。
+
+![20210104_060051604_iOS](http://oss.xknife.net/20210104_060051604_iOS.jpg)
