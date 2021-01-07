@@ -8,7 +8,7 @@ categories:
 - [Diary]
 ---
 
-![A summer of wanting to do something](http://oss.xknife.net/A_summer_of_wanting_to_do_something.jpg.jpg)
+![A summer of wanting to do something](http://oss.xknife.net/A_summer_of_wanting_to_do_something.jpg)
 
 　　虽然这旷日油腻的脑子是不太能够深入学习了，那就让机器去学习；虽然这日渐肥胖的肚皮里的墨水不足已支撑学习了，那就用别人造的轮子。但是坚持总还是有必要的，据说多用脑不用会老年痴呆呢，更何况在电脑前码代码依旧于我是那么有趣的事情。
 　　翻过夏日就是秋收，把这个夏日的时间计划一下，必竟是业余，谁知道工作上的事情会不会侵略到这业余的那么一点点时间呢。以月为营，在这个从年轻时就喜欢的夏日，与蝉鸣共起舞，与蟋叫共赏月，一点点迤逦前行，相信成果就会在那里。现在，事情的开始已经在这里。
