@@ -21,5 +21,7 @@ categories:
 　　农历十一月二十四小寒初候，二九的最后一天。寒流来了，在我的印象里，是我1999年来北京后最冷的一个冬天；但事业不冷，激情仍在，加油吧自己。
 
 ![Empty_evening_subway](http://oss.xknife.net/Empty_evening_subway.jpg)
+
 ![The man who fell asleep in the late shift subway](http://oss.xknife.net/The man who fell asleep in the late shift subway.jpg)
+
 ![The girl who looks at her phone alone in the late shift subway](http://oss.xknife.net/The girl who looks at her phone alone in the late shift subway.jpg)
