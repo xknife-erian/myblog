@@ -10,7 +10,7 @@ tag:
   - 生活
 categories:
 - [Diary, 游记]
-- [生活]
+- [Diary]
 ---
 
 ![DongXiaoKou_forest_park_201804](http://oss.xknife.net/DongXiaoKou_forest_park_201804.jpg)
