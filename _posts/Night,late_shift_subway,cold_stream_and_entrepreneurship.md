@@ -24,10 +24,10 @@ categories:
 
 —— 深夜，空荡荡的地铁车厢
 
-![](http://oss.xknife.net/The man who fell asleep in the late shift subway.jpg)
+![](http://oss.xknife.net/The_man_who_fell_asleep_in_the_late_shift_subway.jpg)
 
 —— 归家的打工人，累了，小睡一会儿
 
-![](http://oss.xknife.net/The girl who looks at her phone alone in the late shift subway.jpg)
+![](http://oss.xknife.net/The_girl_who_looks_at_her_phone_alone_in_the_late_shift_subway.jpg)
 
 —— 独自听着音乐，刷着手机的女孩
