@@ -12,7 +12,7 @@ categories:
 - [创业]
 ---
 
-![](http://oss.xknife.net/The_sidewalk_in_front_of_the_house_late_at_night.jpg)
+![The_sidewalk_in_front_of_the_house_late_at_night](http://oss.xknife.net/The_sidewalk_in_front_of_the_house_late_at_night.jpg)
 
 　　昨天，与伙伴拜访客户，效果颇佳。归途与伙伴共进晚餐，谈及创业的下一步与今年的工作，几个关键词简录于此：务实，第一单，业绩目标，产品与市场，年会，善良。挺好，各抒已见，虽有不同的角度，但大思路是一致的，做事的理念是统一的。2021是关键，尤其是二、三季度，必须有一个市场的爆发，扔进市场一个核武器，带动客户与产业的进化，以期事业的发展。
 
@@ -20,14 +20,8 @@ categories:
 
 　　农历十一月二十四小寒初候，二九的最后一天。寒流来了，在我的印象里，是我1999年来北京后最冷的一个冬天；但事业不冷，激情仍在，加油吧自己。
 
-![](http://oss.xknife.net/Empty_evening_subway.jpg)
+![Empty_evening_subway](http://oss.xknife.net/Empty_evening_subway.jpg)
 
-—— 深夜，空荡荡的地铁车厢
+![The_man_who_fell_asleep_in_the_late_shift_subway](http://oss.xknife.net/The_man_who_fell_asleep_in_the_late_shift_subway.jpg)
 
-![](http://oss.xknife.net/The_man_who_fell_asleep_in_the_late_shift_subway.jpg)
-
-—— 归家的打工人，累了，小睡一会儿
-
-![](http://oss.xknife.net/The_girl_who_looks_at_her_phone_alone_in_the_late_shift_subway.jpg)
-
-—— 独自听着音乐，刷着手机的女孩
+![The_girl_who_looks_at_her_phone_alone_in_the_late_shift_subway](http://oss.xknife.net/The_girl_who_looks_at_her_phone_alone_in_the_late_shift_subway.jpg)
