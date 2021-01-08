@@ -130,7 +130,46 @@ categories:
     sudo apt-get install webhook
     ```
 
-16. 查看开机启动的服务：
+16. 配置webhook
+
+    首先配置webhook的启动配置，配置文件可以放在任意位置，下一步在配置守护进程时指向该路径即可
+
+    ```
+    vim hook.json
+    ```
+
+    ```json
+    [
+       {
+          "id": "git-webhook",
+          "execute-command": "/home/git-codes/auth_pull.sh",
+          "command-working-directory": "/home/git-codes/"
+       }
+    ]
+    ```
+
+    然后建立命令文件，做为webhook响应时的调用
+
+    ```sh
+    #!/bin/sh
+    unset GIT_DIR
+    Path="/home/git-codes/myblog" # blog内容所在的github库更新的路径
+    cd $Path
+    git pull #从github更新
+    cd /home/www_xknife #hexo所在位置
+    hexo clean && hexo d #hexo清理后并更新
+    exit 0
+    ```
+
+17. 在GitHub设置webhook
+
+    ![](http://oss.xknife.net/github-webhook.jpg)
+
+    - 注意事项1：hook.json中的id和在github设置的URL最后字段要一致
+    - 注意事项2：所有的路径要设置正确
+    - 注意事项3：github中的Secret可以不填写
+
+18. 查看开机启动的服务：
 
     ```bash
     // 开机启动的服务列表
@@ -139,7 +178,7 @@ categories:
     systemctl status xx.....xx.service
     ```
 
-17. 安装进程守护服务：[supervisord](http://supervisord.org/)
+19. 安装进程守护服务：[supervisord](http://supervisord.org/)
 
     ```
     sudo apt-get install supervisor
@@ -147,9 +186,28 @@ categories:
 
     配置：
 
-    ```
-    
+    ```shell
+    cd /etc/supervisor/conf.d #配置所在的目录
+    #新增webhook.conf配置文件，做为webhook的启动配置
+    vim webhook.conf
     ```
 
-    
+    ```shell
+    #supervisorctl 来管理进程时需要使用该进程名
+    [program:webhook]
+    directory=/home/git-codes           ; 程序的启动目录
+    command=webhook -hooks /home/git-codes/hooks.json -verbose    ; 启动命令 最好绝对路径
+    autostart = true                      ; 在 supervisord 启动的时候也自动启动
+    numprocs=1                            ; 默认为1
+    process_name=%(program_name)s         ; 默认为 %(program_name)s，即 [program:x] 中的 x
+    user=root                             ; 使用 root 用户来启动该进程
+    autorestart=true                      ; 程序崩溃时自动重启，重启次数是有限制的，默认为3次
+    redirect_stderr=true                  ; 重定向输出的日志
+    stdout_logfile=/home/git-codes/github-webhook.log
+    loglevel=warn
+    ```
+
+    注意：command的值的设定，要将第16步设置的webhook的配置文件路径填写正确。
+
+20. 配置nginx + https
 
