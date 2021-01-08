@@ -9,7 +9,7 @@ categories:
   - [Diary,游记]
 ---
 
-![WangXizhi's Residence 1](http://oss.xknife.net/WangXizhi's_Residence1.jpg)
+![WangXizhi's Residence 1](http://oss.xknife.net/WangXizhi_Residence1.jpg)
 
 > 题记：出差临沂多日，忙里偷闲，清晨刚下过雨的王羲之故居，空气都是田野的香味，在傍晚信步走着，心情宁静而惬意，就那么以静静地感知身边的人和一花一草。这里用文字记载下独处时的思维片断。
 
@@ -40,6 +40,6 @@ categories:
 　　风来的时候，一些东西可以睡去，另一些东西会被叫醒。
 　　要离开了，与风同行。就在转身的一瞬间，我看见夕阳的余吻挂在风的鬓角边。
 
-![WangXizhi's Residence 2](http://oss.xknife.net/WangXizhi's_Residence2.jpg)
+![WangXizhi's Residence 2](http://oss.xknife.net/WangXizhi_Residence2.jpg)
 
-![WangXizhi's Residence 3](http://oss.xknife.net/WangXizhi's_Residence3.jpg)
+![WangXizhi's Residence 3](http://oss.xknife.net/WangXizhi_Residence3.jpg)
