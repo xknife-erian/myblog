@@ -116,7 +116,7 @@ categories:
     root /home/www_xknife/public;
     ```
 
-15. 安装webhook；[参考](https://www.cnblogs.com/pingyeaa/p/12777626.html)
+15. 安装webhook
 
     因为webhook是Go语言开发的，所以要先安装Go语言。
 
