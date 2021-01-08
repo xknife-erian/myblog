@@ -124,7 +124,7 @@ categories:
     sudo apt-get install -y golang
     ```
 
-    安装webhook
+    安装webhook，在开机服务中会被自动安装
 
     ```shell
     sudo apt-get install webhook
