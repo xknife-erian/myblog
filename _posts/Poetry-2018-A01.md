@@ -5,9 +5,9 @@ comments: true
 tag: 
   - 重阳
   - 思念
-  - 诗
+  - 诗词
 categories:
-  - [Diary, 诗]
+  - [Diary, 诗词]
 ---
 
 ![Corner of the park](http://oss.xknife.net/Corner_of_the_park.JPG)
