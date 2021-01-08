@@ -1,5 +1,5 @@
 ---
-title: 阿里云ECS服务器部署
+title: Hexo,ECS,OSS,Nginx;Blog搭建笔记
 date: 2021/1/8 18:00:00
 comments: true
 tag: 
@@ -8,7 +8,7 @@ tag:
   - hexo
   - nginx
 categories:
-- [笔记, 服务器部署]
+  - [笔记, linux]
 ---
 
 ![Workbench with a little clutter and warmth](http://oss.xknife.net/Workbench_with_a_little_clutter_and_warmth.jpg)
@@ -19,9 +19,123 @@ categories:
 
 好了闲话少说。现将这台服务器部署的笔记记录如下。
 
-### 需求分析
+#### 需求分析：blog维护流程与技术链设计
 
-1. Linux系统，使用Ubuntu20.04操作系统；
-2. Web服务器采用nginx
-3. Blog使用Hexo做为生成器
+1. Linux系统，使用Ubuntu20.04操作系统；阿里云ECS；
+2. Web服务器采用nginx；支持多个网站；
+3. Blog使用Hexo做为生成器；静态网站；
+4. Blog内容使用markdown独立文档，上传到github项目，当有上传事件时，通过webhook触发服务器自动pull, pull完成后自动调用hexo生成网站；
+5. markdown内容采用typora软件进行撰写，插入的图片会自动上传到阿里云的oss；
+
+#### 准备工作
+
+1. 申请阿里云ECS
+2. 申请阿里云OSS
+
+#### 部署笔记
+
+1. ECS使用Ubuntu20.04镜像
+
+2. ssh远程登录服务器
+
+3. 服务器源更新，基础更新
+
+   ```
+   sudo apt-get update
+   sudo apt-get upgrade
+   ```
+
+4. 安装 Git：  `sudo apt-get install git`
+
+5. 安装 nodejs，官网有详细安装步骤： `https://github.com/nodesource/distributions`
+
+   ```
+   # Latest LTS Version: 14.15.3 (includes npm 6.14.9)
+   # Using Ubuntu
+       curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+       sudo apt-get install -y nodejs
+   ```
+
+6. 安装cnpm，不改变npm的默认源，以保证特殊情况下可以使用
+
+   ```
+   // 安装cnpm命令,不会改变npm的源
+   npm install -g cnpm --registry=https://registry.npm.taobao.org
+   // 查看npm源
+   npm config get registry
+   ```
+
+7. 安装 nginx `sudo apt-get install nginx`
+
+8. 安装 hexo : [参考官方文档](https://hexo.io/zh-cn/docs/)
+
+   ```
+   cnpm install -g hexo-cli
+   ```
+
+9. 使用hexo-cli初始化第一个网站
+
+   ```
+   $ cd /home
+   $ hexo init www_xknife
+   $ cd www_xknife
+   $ npm install
+   ```
+
+10. 在Home目录下建立Git的工作目录，方便clone一些源代码
+
+    ```
+    mkdir git-codes
+    git clone https://github.com/xknife-erian/myblog.git # 我的blog内容存储项目
+    ```
+
+11. 可以设置hexo主题，也可以不设置，主题的设置各不相同，不在本文论述，一般来讲看各个主题的帮助文档按自己需要设置即可。
+
+12. 配置hexo，重点是内容的路径，要指向第10步的git库
+
+    ```
+    source_dir: /home/git-codes/myblog
+    ```
+
+13. 生成静态网站
+
+    ```
+    cd /home/www_xknife
+    hexo clean && hexo g
+    ```
+
+14. 配置nginx的路径
+
+    ```
+    cd /etc/nginx/sites-available
+    vim defalut
+    ```
+
+    ```
+    // 修改配置文件中的 root 路径
+    root /home/www_xknife/public;
+    ```
+
+15. 安装webhook；[参考](https://www.cnblogs.com/pingyeaa/p/12777626.html)
+
+    因为webhook是Go语言开发的，所以要先安装Go语言。
+
+    ```shell
+    sudo apt-get install -y golang
+    ```
+
+    然后就可以用go命令安装webhook了。
+
+    ```shell
+    go get github.com/adnanh/webhook
+    ```
+
+16. 查看开机启动的服务：
+
+    ```bash
+    // 开机启动的服务列表
+    systemctl list-unit-files --type=service|grep enabled
+    // 查看某服务的详细状态
+    systemctl status xx.....xx.service
+    ```
 
