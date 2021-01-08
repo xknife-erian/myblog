@@ -139,3 +139,17 @@ categories:
     systemctl status xx.....xx.service
     ```
 
+17. 安装进程守护服务：[supervisord](http://supervisord.org/)
+
+    ```
+    sudo apt-get install supervisor
+    ```
+
+    配置：
+
+    ```
+    
+    ```
+
+    
+
