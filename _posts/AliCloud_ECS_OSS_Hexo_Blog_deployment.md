@@ -124,10 +124,10 @@ categories:
     sudo apt-get install -y golang
     ```
 
-    然后就可以用go命令安装webhook了。
+    安装webhook
 
     ```shell
-    go get github.com/adnanh/webhook
+    sudo apt-get install webhook
     ```
 
 16. 查看开机启动的服务：
