@@ -11,7 +11,7 @@ categories:
   - [笔记, linux]
 ---
 
-![Workbench with a little clutter and warmth](http://oss.xknife.net/Workbench_with_a_little_clutter_and_warmth.jpg)
+![Workbench with a little clutter and warmth](https://oss.xknife.net/Workbench_with_a_little_clutter_and_warmth.jpg)
 
 其实很久以前，应该在2002年前后，就已经建立的自己的博客（或者说是个人网站），但是一是服务器太贵，二是当时对网站的内容模式设定不清晰，所以做了几次都是隔上一两年就歇下了。在两三年前，2018年前后，阿里的服务器很便宜了，便又生出了建立一个Blog的想法，用wordpress进行了搭建，成功后，陆续写了两三个月，但是各种墙啊，导致字体、js、css都产生连接问题，网站很慢，更新备份也极不方便，显而易见，又放弃了。
 
@@ -178,7 +178,7 @@ categories:
 
 17. 在GitHub设置webhook
 
-    ![](http://oss.xknife.net/github-webhook.jpg)
+    ![](https://oss.xknife.net/github-webhook.jpg)
 
     - 注意事项1：hook.json中的id和在github设置的URL最后字段要一致
     - 注意事项2：所有的路径要设置正确
@@ -200,7 +200,7 @@ categories:
     sudo apt-get install supervisor
     ```
 
-    配置：
+    配置。其中command值设定为第16步设置的webhook的配置文件路径。
 
     ```shell
     cd /etc/supervisor/conf.d #配置所在的目录
@@ -222,8 +222,6 @@ categories:
     stdout_logfile=/home/git-codes/github-webhook.log
     loglevel=warn
     ```
-
-    注意：command的值的设定，要将第16步设置的webhook的配置文件路径填写正确。
 
 20. 配置nginx + https
 
