@@ -1,5 +1,5 @@
 ---
-title: 我的Blog搭建笔记：Hexo,ECS,OSS,Nginx+ssl,github+webhook+supervisor; 
+title: 我的Blog搭建笔记： Hexo, ECS, OSS, Nginx + ssl, github + webhook + supervisor; 
 date: 2021/1/8 18:00:00
 comments: true
 tag: 
