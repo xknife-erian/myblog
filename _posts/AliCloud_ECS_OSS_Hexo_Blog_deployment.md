@@ -1,5 +1,5 @@
 ---
-title: Hexo,ECS,OSS,Nginx;Blog搭建笔记
+title: 我的Blog搭建笔记：Hexo,ECS,OSS,Nginx+ssl,github+webhook+supervisor; 
 date: 2021/1/8 18:00:00
 comments: true
 tag: 
@@ -31,6 +31,21 @@ categories:
 
 1. 申请阿里云ECS
 2. 申请阿里云OSS
+3. makedown的基本知识与编辑
+4. 下载markdown的客户端编辑软件 [typora](https://typora.io/)
+
+#### 技术链优势
+
+采用这种模式搭建的Blog有几点优势：
+
+1. Blog内容以markdown模式保存，本身就是一份份的文档，易于管理与保存
+2. Blog内容虽然需要客户端软件编写，但是就象用word一样，非常容易上手
+3. 服务器是全静态网站，服务器负载非常小
+4. 内容保存在Github，免备份，服务器崩了，忘续费了，都不影响
+5. 因为使用了Github的webhook(事实上用gitee也没有问题)以后，更新blog是全自动化，只需要本机commit+push以后，服务器会自动更新
+6. 这种技术链模式比使用github-page，笔者感觉架构上要优雅一些
+7. 对于一个软件从业人员来讲，在云端拥有一台最最低配的服务器也是必要的
+8. 对于一个软件从业人员的工资水平来讲，虽然要花点钱，所花费的费用应该不会引起困扰
 
 #### 部署笔记
 
@@ -168,6 +183,7 @@ categories:
     - 注意事项1：hook.json中的id和在github设置的URL最后字段要一致
     - 注意事项2：所有的路径要设置正确
     - 注意事项3：github中的Secret可以不填写
+    - 注意事项4：阿里云ECS服务器的安全规则中将9000端口打开
 
 18. 查看开机启动的服务：
 
@@ -210,4 +226,6 @@ categories:
     注意：command的值的设定，要将第16步设置的webhook的配置文件路径填写正确。
 
 20. 配置nginx + https
+
+21. 在typora设置阿里云OSS，以保证插入图片时自动保存到OSS
 

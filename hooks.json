@@ -1,7 +1,0 @@
-[
-   {
-      "id": "git-webhook",
-      "execute-command": "/home/git/auth_pull.sh",
-      "command-working-directory": "/home/git/"
-    }
-]
