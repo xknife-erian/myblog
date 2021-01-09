@@ -8,7 +8,7 @@ categories:
   - [Diary,诗词]
 ---
 
-![Business trip in Shanghai Wujiang Road](http://oss.xknife.net/Business_trip_in_Shanghai_Wujiang_Road.jpg)
+![Business trip in Shanghai Wujiang Road](https://oss.xknife.net/Business_trip_in_Shanghai_Wujiang_Road.jpg)
 
 > 近来事业需要，常常酒桌坐着
 

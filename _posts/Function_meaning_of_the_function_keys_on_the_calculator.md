@@ -10,7 +10,7 @@ categories:
 - [笔记, 软件]
 ---
 
-![casio_fx991cnx](http://oss.xknife.net/casio_fx991cnx.jpg)
+![casio_fx991cnx](https://oss.xknife.net/casio_fx991cnx.jpg)
 
 　　最近在学习python。以我的习惯，会给自己定义一个课题项目，通过课题项目在练习、设计过程中学习与提高。那么如何即充分发挥python的强项，又能兼容数学，UI，面向对象的程序设计等多个角度呢？反复思考，打算尝试开发一个科学(数学)计算器。计划2-3个月业余完成。
 

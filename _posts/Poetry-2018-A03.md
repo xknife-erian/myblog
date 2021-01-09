@@ -8,7 +8,7 @@ categories:
   - [Diary,诗词]
 ---
 
-![The moon in the night sky](http://oss.xknife.net/The_moon_in_the_night_sky.jpg)
+![The moon in the night sky](https://oss.xknife.net/The_moon_in_the_night_sky.jpg)
 
 > 夏夜，与同事朋友路边小酒馆撸串扎啤，头蒙蒙的归家
 

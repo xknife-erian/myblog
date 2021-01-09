@@ -12,7 +12,7 @@ categories:
 - [Diary]
 ---
 
-![The road in front of Internet Innovation Center after the rain](http://oss.xknife.net/The_road_in_front_of_Internet_Innovation_Center_after_the_rain.jpg)
+![The road in front of Internet Innovation Center after the rain](https://oss.xknife.net/The_road_in_front_of_Internet_Innovation_Center_after_the_rain.jpg)
 
 　　新工作已经上岗两个月了。遇到很多有趣的人，很多有趣的困难。行路难，做事难。一群人只关心远方，而前往远方的路在哪里呢，似乎没有人关心。同伴也如路人一般从你身旁掠过，漠然、冷淡、压抑的如一群面具人。思虑着，仿佛只能置之度外的心态去工作，否则会伤神伤心的。年初本来是极喜欢这个产品的，而真真的摸这个产品时，才发现工作是沉甸甸的。好吧，无论如何，佛一般的思考与面对吧。
 

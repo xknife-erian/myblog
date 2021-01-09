@@ -10,7 +10,7 @@ categories:
   - [Diary, 诗词]
 ---
 
-![Corner of the park](http://oss.xknife.net/Corner_of_the_park.JPG)
+![Corner of the park](https://oss.xknife.net/Corner_of_the_park.JPG)
 
 重阳，我想念家的桂香
 我想回到家乡的镇子里去
@@ -48,4 +48,4 @@ categories:
 却只能和着弯弯曲曲的岁月
 低吟浅唱
 
-![Office Building of GanNan Medical College](http://oss.xknife.net/Office_Building_of_Gannan_Medical_College.jpg)
+![Office Building of GanNan Medical College](https://oss.xknife.net/Office_Building_of_Gannan_Medical_College.jpg)

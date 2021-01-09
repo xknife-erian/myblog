@@ -10,7 +10,7 @@ categories:
 - [Diary, 杂文]
 ---
 
-![A_middle-aged_man_walking_in_the_park](http://oss.xknife.net/A_middle-aged_man_walking_in_the_park.jpg)
+![A_middle-aged_man_walking_in_the_park](https://oss.xknife.net/A_middle-aged_man_walking_in_the_park.jpg)
 
 > **中年更要懂得敬畏，敬畏生命，敬畏生活，敬畏阅历，敬畏年龄。中年应该有两种事应该尽量少干，一是用自己的嘴干扰别人的人生，二是靠别人的脑子思考自己的人生。**
 

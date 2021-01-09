@@ -10,7 +10,7 @@ categories:
 - [Diary]
 ---
 
-![Subway related to youth](http://oss.xknife.net/Subway_related_to_youth.jpg)
+![Subway related to youth](https://oss.xknife.net/Subway_related_to_youth.jpg)
 
 　　这是北京最早的一号线地铁的地铁站。现在北京的地铁相当发达了，地铁站更是越修越漂亮了。但是我却是一走进这一号线的地铁站就会更多的怀念，就会想起自己的青春。
 

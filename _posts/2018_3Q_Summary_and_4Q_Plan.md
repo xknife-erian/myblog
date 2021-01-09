@@ -10,7 +10,7 @@ categories:
   - [Diary, 计划]
 ---
 
-![The trail in the YangTai mountain](http://oss.xknife.net/The_trail_in_the_YangTai-mountain.jpg)
+![The trail in the YangTai mountain](https://oss.xknife.net/The_trail_in_the_YangTai-mountain.jpg)
 
 近日，公司安排做总结、计划。我坐在电脑前呆呆傻傻了半天，满脑子天马行空，琢磨了很多，然后潇洒的把工作扔一边，决定先将下一步的生活捋捋，敲敲黑板，划划重点。
 

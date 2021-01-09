@@ -8,7 +8,7 @@ categories:
   - [Diary, 诗词]
 ---
 
-![Dunhuang Yardan Landform](http://oss.xknife.net/Dunhuang_Yardan_Landform.JPG)
+![Dunhuang Yardan Landform](https://oss.xknife.net/Dunhuang_Yardan_Landform.JPG)
 
 人生只待长久看。
 醉忆流年。
@@ -20,4 +20,4 @@ categories:
 丛中莞尔她不见，而如今，道别亦难。
 自言中年风度，犹爱飒飒人间。
 
-![Qinshihuang's Terracotta](http://oss.xknife.net/Qinshihuang's_Terracotta.JPG)
+![Qinshihuang's Terracotta](https://oss.xknife.net/Qinshihuang's_Terracotta.JPG)
