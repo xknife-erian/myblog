@@ -225,5 +225,34 @@ categories:
 
 20. 配置nginx + https
 
+    - 这个比较简单，在阿里云申请免费的证书，然后上传到服务器
+    - nginx开启SSL选项即可
+
+    **80端口的正确转发**
+
+    ```
+    server {
+        listen 80;
+        listen [::]:80;
+        server_name *.xknife.net;
+        return 301 https://$http_host$request_uri;
+    }
+    ```
+**证书路径的配置；root路径指向hexo的网站生成目标路径**
+
+    ```
+    server {
+        listen 443 ssl;
+        listen [::]:443 ssl;
+        server_name *.xknife.net;
+        ssl_certificate /etc/nginx/crt/5039256_xknife.net.pem;
+        ssl_certificate_key /etc/nginx/crt/5039256_xknife.net.key;
+        root /home/www_xknife/public;
+        index index.html index.htm;
+    }
+    ```
+
 21. 在typora设置阿里云OSS，以保证插入图片时自动保存到OSS
+
+    这一项想了想还是放另外的专题进行记录。
 
