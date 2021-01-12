@@ -238,7 +238,7 @@ categories:
         return 301 https://$http_host$request_uri;
     }
     ```
-**证书路径的配置；root路径指向hexo的网站生成目标路径**
+**1.证书路径的配置；2.root路径指向hexo的网站生成目标路径**
 
     ```
     server {
