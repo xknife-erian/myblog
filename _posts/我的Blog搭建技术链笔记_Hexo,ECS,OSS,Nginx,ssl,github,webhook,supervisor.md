@@ -3,7 +3,7 @@ title: 我的Blog搭建技术链笔记： Hexo, ECS, OSS, Nginx + ssl, github + 
 date: 2021/1/8 18:00:00
 comments: true
 tag: 
-  - Unbantu
+  - Ubuntu
   - blog
   - hexo
   - nginx
