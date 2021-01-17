@@ -9,6 +9,8 @@ tag:
   - nginx
 categories:
   - [IT笔记, Linux]
+keywords:
+  - [Blog,Hexo,ECS,OSS,Nginx,ssl,github,webhook,supervisor]
 ---
 
 ![Workbench with a little clutter and warmth](https://oss.xknife.net/Workbench_with_a_little_clutter_and_warmth.jpg)
