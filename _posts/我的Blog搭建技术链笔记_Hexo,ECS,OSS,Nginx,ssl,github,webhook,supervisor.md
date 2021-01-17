@@ -8,7 +8,7 @@ tag:
   - hexo
   - nginx
 categories:
-  - [笔记, linux]
+  - [IT笔记, Linux]
 ---
 
 ![Workbench with a little clutter and warmth](https://oss.xknife.net/Workbench_with_a_little_clutter_and_warmth.jpg)
