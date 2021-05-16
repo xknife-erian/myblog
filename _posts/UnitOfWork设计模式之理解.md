@@ -39,11 +39,9 @@ keywords:
 
 #### 关于Unit of Work模式
 
-Unit Of Work中的“Unit”是单元的意思，知道单元测试的朋友都知道其也包含“Unit”单词，但是是一个意思吗？Unit Test（单元测试）虽然也包含“Unit”这个单词，但是意义并不是一样，单元测试中的“Unit”可以看做是最小单元，比如组装飞机的最小零部件，但是Unit Of Work（工作单元）并非无此，注意后面“Work”单词，意思是可以“工作”的单元。
+Unit Of Work的定义：Unit of Work是用来解决领域模型存储和变更工作，在ORM进行持久化的时候，比如Entity Framework的SaveChanges操作，其实就可以看做是Unit Of Work，也就是定义中所说“用来解决领域模型存储和变更工作”，但是如果项目是基于Entity Framework进行DDD（领域驱动设计）开发设计的，那Entity Framework中的Domain Model就必然包含业务逻辑，这就不符合“而这些数据层业务并不属于领域模型本身具有的”，也就是说Unit Of Work必须独立于Domain Layer（领域层），注意独立的业务是“数据层”业务，并不是业务场景中的“业务”，比如“转账业务”，转出方扣钱和转入方加钱这个业务就属于“数据层业务”，有的人会把Unit Of Work放在Domain Layer（领域层）中，其实是有些不恰当的，应该是放在Infrastructure Layer（基础层）中，但其实也只是相对而言，如果涉及到具体的业务单元模块，具体实现可以放在领域层中。
 
 我们再看一个现实中例子，也最能说明Unit Of Work所包含的意思，就是银行转账操作，包含两个动作：转出方扣钱和转入方加钱，这两个动作要么都完成，要么都不完成，也就是事务操作，完成就Commit（提交），完不成就Rollback（回滚）。
-
-回到Unit Of Work的定义，Unit of Work是用来解决领域模型存储和变更工作，在ORM进行持久化的时候，比如Entity Framework的SaveChanges操作，其实就可以看做是Unit Of Work，也就是定义中所说“用来解决领域模型存储和变更工作”，但是如果项目是基于Entity Framework进行DDD（领域驱动设计）开发设计的，那Entity Framework中的Domain Model就必然包含业务逻辑，这就不符合“而这些数据层业务并不属于领域模型本身具有的”，也就是说Unit Of Work必须独立于Domain Layer（领域层），注意独立的业务是“数据层”业务，并不是业务场景中的“业务”，比如“转账业务”，转出方扣钱和转入方加钱这个业务就属于“数据层业务”，有的人会把Unit Of Work放在Domain Layer（领域层）中，其实是有些不恰当的，应该是放在Infrastructure Layer（基础层）中，但其实也只是相对而言，如果涉及到具体的业务单元模块，具体实现可以放在领域层中。
 
 在DDD（领域驱动设计）开发设计中，Unit Of Work的使用一般会结合Repository（仓储）使用。
 
