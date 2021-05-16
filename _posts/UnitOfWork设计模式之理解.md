@@ -103,9 +103,7 @@ Repository与Dal的区别（[来源](http://www.cnblogs.com/carysun/archive/2009
 
 　　[EntityFramework之领域驱动设计实践（七）-模型对象的生命周期 - 仓储](http://www.cnblogs.com/daxnet/archive/2010/07/07/1772638.html)
 
-　　E[ntityFramework之领域驱动设计实践（八）- 仓储的实现：基本篇](http://www.cnblogs.com/daxnet/archive/2010/07/07/1772780.html)
-
-
+　　[EntityFramework之领域驱动设计实践（八）- 仓储的实现：基本篇](http://www.cnblogs.com/daxnet/archive/2010/07/07/1772780.html)
 
 > [UnitOfWork知多少 - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1505237)
 >
