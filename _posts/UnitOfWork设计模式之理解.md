@@ -39,7 +39,7 @@ keywords:
 
 #### 关于Unit of Work模式
 
-Unit Of Work的定义：Unit of Work是用来解决领域模型存储和变更工作，在ORM进行持久化的时候，比如Entity Framework的SaveChanges操作，其实就可以看做是Unit Of Work，也就是定义中所说“用来解决领域模型存储和变更工作”，但是如果项目是基于Entity Framework进行DDD（领域驱动设计）开发设计的，那Entity Framework中的Domain Model就必然包含业务逻辑，这就不符合“而这些数据层业务并不属于领域模型本身具有的”，也就是说Unit Of Work必须独立于Domain Layer（领域层），注意独立的业务是“数据层”业务，并不是业务场景中的“业务”，比如“转账业务”，转出方扣钱和转入方加钱这个业务就属于“数据层业务”，有的人会把Unit Of Work放在Domain Layer（领域层）中，其实是有些不恰当的，应该是放在Infrastructure Layer（基础层）中，但其实也只是相对而言，如果涉及到具体的业务单元模块，具体实现可以放在领域层中。
+Unit Of Work的定义：Unit of Work是用来解决领域模型存储和变更工作，在ORM进行持久化的时候，比如Entity Framework的SaveChanges操作，其实就可以看做是Unit Of Work，也就是定义中所说“用来解决领域模型存储和变更工作”，但是如果项目是基于Entity Framework进行DDD(领域驱动设计)开发设计的，那Entity Framework中的Domain Model就必然包含业务逻辑，这就不符合“而这些数据层业务并不属于领域模型本身具有的”，也就是说Unit Of Work必须独立于Domain Layer(领域层)，注意独立的业务是“数据层”业务，并不是业务场景中的“业务”，比如“转账业务”，转出方扣钱和转入方加钱这个业务就属于“数据层业务”，有的人会把Unit Of Work放在Domain Layer（领域层）中，其实是有些不恰当的，应该是放在Infrastructure Layer（基础层）中，但其实也只是相对而言，如果涉及到具体的业务单元模块，具体实现可以放在领域层中。
 
 我们再看一个现实中例子，也最能说明Unit Of Work所包含的意思，就是银行转账操作，包含两个动作：转出方扣钱和转入方加钱，这两个动作要么都完成，要么都不完成，也就是事务操作，完成就Commit（提交），完不成就Rollback（回滚）。
 
@@ -69,13 +69,13 @@ Mediates between the domain and data mapping layers using a collection-like inte
 
 > 仅使用泛型Repository接口并不太合适，因为Repository接口是提供给Domain层的操作契约，不同的entity对于Domain来说可能有不同的操作约束。因此Repository接口还是应该单独针对每个Eneity类来定义。
 >
-> 泛型的Repository<T>类仍然用来减少重复代码，只是不能被UserRepository类直接继承，因为这样Delete方法将侵入User类，所以改为在UserRepository中 组合一个Repository<T>，将开放给domain可见且又能使用泛型重用的功能委托给这个Repository<T>
+> 泛型的Repository<T>类仍然用来减少重复代码，只是不能被UserRepository类直接继承，因为这样Delete方法将侵入User类，所以改为在UserRepository中组合一个Repository<T>，将开放给domain可见且又能使用泛型重用的功能委托给这个Repository<T>
 
 Repository与Dal的区别（[来源](http://www.cnblogs.com/carysun/archive/2009/03/20/Repository.html#1506362)）：
 
 > Repository是DDD中的概念，强调Repository是受Domain驱动的，Repository中定义的功能要体现Domain的意图和约束，而Dal更纯粹的就是提供数据访问的功能,并不严格受限于Business层。
 >
-> 使用Repository，隐含着一种意图倾向，就是 Domain需要什么我才提供什么，不该提供的功能就不要提供，一切都是以Domain的需求为核心；而使用Dal，其意图倾向在于我Dal层能使用的数 据库访问操作提供给Business层，你Business要用哪个自己选。换一个Business也可以用我这个Dal，一切是以我Dal能提供什么操 作为核心。
+> 使用Repository，隐含着一种意图倾向，就是 Domain需要什么我才提供什么，不该提供的功能就不要提供，一切都是以Domain的需求为核心；而使用Dal，其意图倾向在于我Dal层能使用的数据库访问操作提供给Business层，你Business要用哪个自己选。换一个Business也可以用我这个Dal，一切是以我Dal能提供什么操 作为核心。
 
 相关英文文章：
 
@@ -99,7 +99,7 @@ Repository与Dal的区别（[来源](http://www.cnblogs.com/carysun/archive/2009
 
 相关博文：
 
-　　[EntityFramework之领域驱动设计实践（七）-模型对象的生命周期 - 仓储](http://www.cnblogs.com/daxnet/archive/2010/07/07/1772638.html)
+　　[EntityFramework之领域驱动设计实践（七）- 模型对象的生命周期 - 仓储](http://www.cnblogs.com/daxnet/archive/2010/07/07/1772638.html)
 
 　　[EntityFramework之领域驱动设计实践（八）- 仓储的实现：基本篇](http://www.cnblogs.com/daxnet/archive/2010/07/07/1772780.html)
 
