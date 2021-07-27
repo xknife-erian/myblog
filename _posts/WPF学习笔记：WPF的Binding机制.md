@@ -12,6 +12,8 @@ keywords:
   - MVVM
 ---
 
+![appsinsightdatabindinghero](https://oss.xknife.net/appsinsightdatabindinghero.jpg)
+
 ####  Binding
 
 #### 绑定元素对象
