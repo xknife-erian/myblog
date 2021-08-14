@@ -28,6 +28,8 @@ Span的特点如下：
 3. 支持泛型；
 4. 支持GC，而不像指针需要自己来管理释放；
 
+![20210324_093428703_iOS](https://oss.xknife.net/20210324_093428703_iOS.jpg)
+
 > 参考与学习过的文章：
 >
 > https://www.cnblogs.com/BigBrotherStone/p/memory-and-spans.html
