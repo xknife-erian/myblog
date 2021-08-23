@@ -5,7 +5,7 @@ comments: true
 tag: 
   - WPF
 categories:
-  - [IT笔记,WPF]
+  - [IT笔记,C#]
 keywords:
   - WPF
   - Binding
